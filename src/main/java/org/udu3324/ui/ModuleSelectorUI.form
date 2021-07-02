@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.udu3324.ui.ModuleSelectorUI">
+  <grid id="27dc6" binding="rootPanel" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="25" left="25" bottom="25" right="25"/>
+    <constraints>
+      <xy x="20" y="20" width="597" height="573"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="118c0" binding="modulePanel" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="5" left="5" bottom="5" right="5"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="e43" binding="blatantModulePanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none" title="Blatant"/>
+            <children>
+              <component id="bdb9d" class="javax.swing.JLabel" binding="titleLabel1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono NL" size="20" style="1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4048a" class="javax.swing.JCheckBox" binding="critCheckBox">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Critical"/>
+                </properties>
+              </component>
+              <component id="6e688" class="javax.swing.JCheckBox" binding="reachCheckBox">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Reach"/>
+                </properties>
+              </component>
+              <component id="b7fad" class="javax.swing.JCheckBox" binding="killAuraCheckBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Killaura"/>
+                </properties>
+              </component>
+              <component id="66e78" class="javax.swing.JCheckBox" binding="triggerCheckBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="Trigger"/>
+                </properties>
+              </component>
+              <component id="4db3" class="javax.swing.JCheckBox" binding="aimBotCheckBox">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="Aimbot"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="e9fda" binding="autoModulePanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono NL" size="16" style="0"/>
+            </properties>
+            <border type="none" title="Auto"/>
+            <children>
+              <component id="23616" class="javax.swing.JLabel" binding="titleLabel2">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono NL" size="20" style="1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="b8766" class="javax.swing.JCheckBox" binding="autoHealCheckBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoHeal"/>
+                </properties>
+              </component>
+              <component id="4685a" class="javax.swing.JCheckBox" binding="autoFishCheckBox">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoFish"/>
+                </properties>
+              </component>
+              <component id="3bd5a" class="javax.swing.JCheckBox" binding="autoBowCheckBox">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoBow"/>
+                </properties>
+              </component>
+              <component id="2add5" class="javax.swing.JCheckBox" binding="autoAimCheckBox">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoAim"/>
+                </properties>
+              </component>
+              <component id="bfc8b" class="javax.swing.JCheckBox" binding="autoEatCheckBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoEat"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a87fc" binding="assistAIModulePanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none" title="Assist/AI"/>
+            <children>
+              <component id="ce963" class="javax.swing.JLabel" binding="titleLabel3">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono NL" size="20" style="1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="f53e0" class="javax.swing.JCheckBox" binding="pvpAICheckBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="pvpAI"/>
+                </properties>
+              </component>
+              <component id="3b23d" class="javax.swing.JCheckBox" binding="lagAICheckBox">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="lagAI"/>
+                </properties>
+              </component>
+              <component id="c6f69" class="javax.swing.JCheckBox" binding="bowAICheckBox">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="bowAI"/>
+                </properties>
+              </component>
+              <component id="c45d7" class="javax.swing.JCheckBox" binding="aimAICheckBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="aimAI"/>
+                </properties>
+              </component>
+              <component id="838d7" class="javax.swing.JCheckBox" binding="bridgeAICheckBox">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="bridgeAI"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="d4232" binding="exploitModulePanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none" title="Exploits"/>
+            <children>
+              <component id="dd956" class="javax.swing.JLabel" binding="titleLabel4">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono NL" size="20" style="1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="55a38" class="javax.swing.JCheckBox" binding="scaffoldCheckBox">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Scaffold"/>
+                </properties>
+              </component>
+              <component id="9a3f3" class="javax.swing.JCheckBox" binding="chestStealerCheckBox">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Chest Stealer"/>
+                </properties>
+              </component>
+              <component id="4e685" class="javax.swing.JCheckBox" binding="jeasusCheckBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Jeasus"/>
+                </properties>
+              </component>
+              <component id="2f01" class="javax.swing.JCheckBox" binding="dupeCheckBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="Item Dupe"/>
+                </properties>
+              </component>
+              <component id="a25" class="javax.swing.JCheckBox" binding="timerCheckBox">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="Timer"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="73315" binding="renderModulePanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none" title="Movement"/>
+            <children>
+              <component id="3eabc" class="javax.swing.JLabel" binding="titleLabel5">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono NL" size="20" style="1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="ebe5" class="javax.swing.JCheckBox" binding="antiFallDMGCheckBox">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Anti-FallDMG"/>
+                </properties>
+              </component>
+              <component id="fd868" class="javax.swing.JCheckBox" binding="bhopCheckBox">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Bhop"/>
+                </properties>
+              </component>
+              <component id="7b8f9" class="javax.swing.JCheckBox" binding="jumpCheckBox">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Jump"/>
+                </properties>
+              </component>
+              <component id="808df" class="javax.swing.JCheckBox" binding="speedCheckBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="Speed"/>
+                </properties>
+              </component>
+              <component id="4d1bf" class="javax.swing.JCheckBox" binding="antiKBCheckBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="Anti-KnockBack"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="f1ea4" binding="specificModulePanel" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties/>
+            <border type="none" title="Specific"/>
+            <children>
+              <component id="f0ec4" class="javax.swing.JLabel" binding="titleLabel6">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font name="JetBrains Mono NL" size="20" style="1"/>
+                  <text value=""/>
+                </properties>
+              </component>
+              <component id="4bccc" class="javax.swing.JCheckBox" binding="bedBreakAICheckBox">
+                <constraints>
+                  <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="bedBreakAI"/>
+                </properties>
+              </component>
+              <component id="753e5" class="javax.swing.JCheckBox" binding="autoCrystalCheckBox">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoCrystal"/>
+                </properties>
+              </component>
+              <component id="ec5d2" class="javax.swing.JCheckBox" binding="autoPyroCheckBox">
+                <constraints>
+                  <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoPyro"/>
+                </properties>
+              </component>
+              <component id="891fc" class="javax.swing.JCheckBox" binding="autoShinitoCheckBox">
+                <constraints>
+                  <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <foreground color="-3564020"/>
+                  <text value="AutoShinito"/>
+                </properties>
+              </component>
+              <component id="7bbe2" class="javax.swing.JCheckBox" binding="autoSRageCheckBox">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <focusable value="false"/>
+                  <font name="JetBrains Mono NL" size="16" style="0"/>
+                  <hideActionText value="true"/>
+                  <text value="AutoSRage"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="f652d" class="javax.swing.JButton" binding="confirmButton" default-binding="true">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono NL" size="18" style="0"/>
+              <text value="Confirm"/>
+            </properties>
+          </component>
+          <component id="46fa9" class="javax.swing.JLabel" binding="descriptionLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="JetBrains Mono" size="22" style="0"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="0"/>
+              <text value="Select the modules you want to use!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
