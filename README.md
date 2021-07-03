@@ -21,7 +21,7 @@ Glass Client is still a work in progress. There are some features that are not a
 
 ## How To Download/Setup
 0. Make sure you have Java 8 or above installed. You can find the download [here](https://java.com/en/download/)
-1. Download the GlassClient.jar from here
+1. Download the GlassClient.jar from [here](https://github.com/udu3324/Glass-Client/releases/tag/v1.3)
 2. Run GlassClient.jar
 3. Enter your code in the code box which should look like this:
 4. Confirm the file location of MC
